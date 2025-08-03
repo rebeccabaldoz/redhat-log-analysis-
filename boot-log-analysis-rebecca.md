@@ -96,8 +96,6 @@ sudo dmidecode -t system
 # List root’s cron jobs
 sudo crontab -l
 
-🧩 Next Steps (for GitHub and Real Life)
-
 
 
 💬 Personal Reflection
