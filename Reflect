@@ -1,0 +1,23 @@
+# 🐧 RHEL Session Log – August 3, 2025
+
+## 🔍 What I Explored
+- Ran `journalctl -b` to view boot logs
+- Analyzed BIOS-e820 memory mappings
+- Noted SMBIOS messages and DMI strings
+- Identified what clean logs vs red flags look like
+- Shut down my Red Hat VM cleanly using `sudo shutdown now`
+
+## 💡 What I Learned
+- What `To Be Filled By OEM` means in DMI output
+- What `auditd` is and why it matters for GRC logging
+- How malicious cron jobs can look (e.g., curl payloads)
+- What healthy timestamps and BIOS handoff look like
+- How to explain this in an audit-ready way
+
+## 🧠 What I’d Do Differently Next Time
+- Take terminal screenshots during the session
+- Copy terminal output into my markdown notes before shutdown
+- Possibly try `journalctl --list-boots` to compare multiple reboots
+
+## 💬 Reflection
+Even without screenshots, I made real progress. I understood the structure of my boot log, asked critical questions, and committed my learning to GitHub. Next time, I’ll capture more evidence — but today, I leveled up.
